@@ -1,3 +1,54 @@
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  border-radius: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+#navigation ul.nav.navbar-nav {
+  margin-top: 30px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #9ace40;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default a.navbar-brand {
+  border: 3px solid;
+  padding: 5px;
+  height: auto;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border-color: #9ace40;
+  color: #9ace40;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #9ace40;
+  background-color: rgba(231, 231, 231, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 30px;
+}
+#mainBanner h1 {
+  margin-bottom: 60px;
+}
 @media (min-width: 768px) {
   .navbar-nav {
       float: right;
