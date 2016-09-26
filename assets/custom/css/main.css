@@ -6,6 +6,7 @@
   float: left;
   /*margin-top: 7px;*/
 }
+
 div.wrapperBanner {
   background: url(../img/frontcover.png) no-repeat;
   background-size: cover;
@@ -14,6 +15,7 @@ div.wrapperBanner {
   display: table;
   width: 100%;
 }
+
 .cust-img {
   width: 50%;
   background-size: contain;
@@ -22,6 +24,7 @@ div.wrapperBanner {
   background-image: url(../img/app-makeover.png);
   margin: 60px auto;
 }
+
 .cust-img:after {
   content: "";
   display: block;
@@ -31,6 +34,11 @@ div.wrapperBanner {
 section {
   padding: 60px 0px;
 }
+
+section#mainBanner {
+  padding-top: 0;
+}
+
 header.remove {
   -webkit-transform: translateY(-70px);
   -moz-transform: translateY(-70px);
@@ -71,4 +79,75 @@ div#taglineDiv {
   width: 100%;
   max-width: 788px;
   margin: auto;
+}
+
+
+/* #clients .client-img {
+  width: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#clients .client-img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+} */
+
+
+/* .client-1 {
+  background-image: url(../img/product-hunt.png);
+}
+.client-2 {
+  background-image: url(../img/appstore.png);
+}
+.client-3 {
+  background-image: url(../img/webrazzi.png);
+}
+.client-4 {
+  background-image: url(../img/f6s.png);
+}
+.client-5 {
+  background-image: url(../img/london-partners.png);
+}
+.client-6 {
+  background-image: url(../img/businessmatters.png);
+} */
+
+#work .work {
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#work .work:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.work-1 {
+  background-image: url('../img/work1.png');
+  background-color: #2f323d;
+}
+.work-2 {
+  background-image: url('../img/work2.png');
+  background-color: #4c311e;
+}
+.work-3 {
+  background-image: url('../img/work3.png');
+  background-color: #4e2ba2;
+}
+.work-4 {
+  background-image: url('../img/work4.png');
+  background-color: #1faca6;
+}
+.work-5 {
+  background-image: url('../img/work5.png');
+  background-color: #f1695b;
+}
+.work-6 {
+  background-image: url('../img/work6.png');
+  background-color: #ffe100;
 }
