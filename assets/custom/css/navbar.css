@@ -49,6 +49,7 @@
 #mainBanner h1 {
   margin-bottom: 60px;
 }
+
 @media (min-width: 768px) {
   .navbar-nav {
       float: right;

@@ -1,33 +1,4 @@
-@font-face {
-  font-family: 'proxima_nova_rgregular';
-  src: url('../fonts/proximanova-regular/proximanova-regular-webfont.eot');
-  src: url('../fonts/proximanova-regular/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-regular/proximanova-regular-webfont.woff2') format('woff2'), url('../fonts/proximanova-regular/proximanova-regular-webfont.woff') format('woff'), url('../fonts/proximanova-regular/proximanova-regular-webfont.ttf') format('truetype'), url('../fonts/proximanova-regular/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'proxima_novalight';
-  src: url('../fonts/proximanova-light/proximanova-light-webfont.eot');
-  src: url('../fonts/proximanova-light/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-light/proximanova-light-webfont.woff2') format('woff2'), url('../fonts/proximanova-light/proximanova-light-webfont.woff') format('woff'), url('../fonts/proximanova-light/proximanova-light-webfont.ttf') format('truetype'), url('../fonts/proximanova-light/proximanova-light-webfont.svg#proxima_novalight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'proxima_novasemibold';
-  src: url('../fonts/proximanova-semibold/proximanova-semibold-webfont.eot');
-  src: url('../fonts/proximanova-semibold/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.woff2') format('woff2'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.woff') format('woff'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.ttf') format('truetype'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'proxima_nova_rgbold';
-  src: url('../fonts/proximanova-bold/proximanova-bold-webfont.woff2') format('woff2'), url('../fonts/proximanova-bold/proximanova-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 /* @font-face {
@@ -696,4 +667,532 @@ a.pagi-image {
   text-align: center;
   margin-top: 0%;
   margin-bottom: 3%;
+}
+
+@media only screen and (min-width:0px) and (max-width: 470px)/*Samsung galaxy S4 Portrait*/
+{ 
+  .con-mail
+  {
+    margin-bottom:19%;
+  }
+}
+@media only screen and (min-width:0px) and (max-width: 650px)
+{
+  html,body
+  {
+    overflow-x:hidden !important;
+  }
+  html
+  {
+    overflow-y: visible !important;
+  }
+  .navbar-brand
+  {
+    display:none;
+  }
+  a.ht-start
+  {
+    margin-left: 0%;
+    margin-top: 4%;
+  }
+  .bann-mid
+  {
+    padding-top: 21.5%;
+  }
+  .ban-p 
+  {
+    color: #ffffff;
+    font-family: 'proxima_novalight';
+    font-size: 35px;
+    text-align: center;
+    line-height: 37px;
+  }
+  .get-p 
+  {
+    text-align: center;
+    margin-left: 31%;
+    margin-top: 24.5%;
+  }
+  .get-a
+  {
+    margin-left: 0%;
+  }
+  .cross-ul
+  {   
+    background:url('../img/greenclose.png') right no-repeat;
+    width: 18px;
+    height: 18px;
+    display: block;
+    background-position-y: 3px;
+  }
+  .text-center
+  {
+    text-align:left !important;
+  }
+  .text-center ul li a:hover
+  {
+    color:#ffffff;
+    text-decoration:none;
+  }
+  
+  .text-center ul li a 
+  {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'proxima_novalight';
+    letter-spacing: 1px;
+  padding-left: 2.5%;
+  }
+  .menu-div
+  {
+    border-bottom: 1px solid #ffffff;
+  }
+  .text-center ul li
+  {
+    cursor: pointer;
+  }
+  .m-first
+  {
+    background:url('../img/plusbig.png') right no-repeat;
+    margin-right: 6%;
+    background-position-y: 15px;
+  } 
+  .m-first2
+  {
+    background:url('../img/plusbig.png') right no-repeat;
+    margin-right: 6%;
+    background-position-y: 15px;
+    margin-bottom: 0px !important;
+  } 
+  .m-second
+  {
+    background:url('../img/plusbig.png') right no-repeat;
+    margin-right: 6%;
+    background-position-y: 15px;
+  } 
+  .m-second2
+  {
+    background:url('../img/plusbig.png') right no-repeat;
+    margin-right: 6%;
+    background-position-y: 15px;
+    margin-bottom: 0px !important;
+  }   
+  .m-fourth
+  {
+    background:url('../img/plusbig.png') right no-repeat;
+    margin-right: 6%;
+    background-position-y: 15px;
+  } 
+  .m-child-m2
+  {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    display:none;
+  } 
+  .m-child-m2  li
+  {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 7px !important;
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #ffffff;
+  }
+  .m2-child-m2
+  {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    display:none;
+  } 
+  .m2-child-m2  li
+  {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    padding-bottom: 7px !important;
+    margin-bottom: 0px !important;
+  }
+  .m2-first
+  {
+  background: url('../img/plusbig.png') right no-repeat;
+    background-position-y: 20px;
+    background-position-x: 93.6%;
+  }
+  ul.m3-child-m2 
+  {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    display: none;
+  }
+  .m3-child-m2 li
+  {
+    border:none;
+  }
+  .m3-child-m2 li a
+  {
+    font-weight: normal !important;
+  }
+  .m2-first2
+  {
+    border-bottom: none !important;
+  }
+  .m3-first3
+  {
+    border-bottom: none !important;
+  }
+  .m4-first4
+  {
+    border-bottom: none !important;
+  }
+  .last-li
+  {
+    border-bottom:1px solid #ffffff !important;
+  } 
+  .m3-first
+  {
+  background: url('../img/plusbig.png') right no-repeat;
+    background-position-y: 20px;
+    background-position-x: 93.6%;
+  } 
+  ul.m4-child-m2 
+  {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    display: none;
+  }
+  .m4-child-m2 li
+  {
+    border:none;
+  }
+  .m4-child-m2 li a
+  {
+    font-weight: normal !important;
+  } 
+  .m4-first
+  {
+  background: url('../img/plusbig.png') right no-repeat;
+    background-position-y: 20px;
+    background-position-x: 93.6%;
+  } 
+  ul.m5-child-m2 
+  {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    display: none;
+  }
+  .m5-child-m2 li
+  {
+    border:none;
+  }
+  .m5-child-m2 li a
+  {
+    font-weight: normal !important;
+  }
+  ul.m6-child-m2
+  {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 0px;
+    display: none;
+  }
+  .m6-child-m2 li
+  {
+    border:none;
+  }
+  .m6-child-m2 li a
+  {
+    font-weight: normal !important;
+  }
+  .content-1-left
+  {
+    width: 93%;
+    margin-bottom: 5%;
+  }
+  .content-2-left
+  {
+    width: 93%;
+    padding-bottom: 10%;
+    height:auto;
+  }
+  .content-2-left1,.content-2-left2,.content-2-left3
+  {
+    width: 93%;
+    margin-left: 3%;
+    padding-bottom: 10%;
+    height:auto;
+  }
+  .section3
+  {
+    display:none;
+  }
+  .section3-mobile
+  {
+    display:block;
+  }
+  .section2-main
+  {
+    width:100%;
+  }
+  .section2-left
+  {
+    width: 87%;
+    margin-left: 6%;
+  }
+  .section2-left-2
+  {
+    width: 87%;
+    margin-left: 6%;
+    margin-top: 7%;
+  } 
+  .section3
+  {
+    width:100%;
+  }
+  .section3-content1
+  {
+    width:100%;
+  }
+  .section3-content1-left
+  {
+    width:100%;
+    float:none;
+  }
+  p.section3-imagep 
+  {
+    text-align: center;
+  }
+  .section3-content1-right
+  {
+    width:100%;
+  }
+  .section3-maincontent 
+  {
+    width: 94%;
+  }
+  .secondtitle
+  {
+    padding-left:7% !important;
+    width: 95%;
+  }
+  .section4-main
+  {
+    width:91%;
+  }
+  p.section4-p 
+  {
+    line-height: 36px;
+    padding-top: 7%;
+    font-size: 39px;
+  }
+  .section4-p2 
+  {
+    font-size: 25px;
+    padding-top: 4%;
+  }
+  .section5-main
+  {
+    width:100%;
+  }
+  /*.box 
+  {
+    width: 426px;
+    height: 426px;
+  }*/
+  .section5-left 
+  {
+    margin-bottom: 5%;
+  } 
+  .footer-section1-left
+  {
+    width:100%;
+  }
+  .footer-section1-left img
+  {
+    width: 100%;
+  }
+  .f-title
+  {
+    padding-top: 28%;
+  }
+  .f-con1
+  {
+    font-size: 17px;
+  }
+  .footer-section1
+  {
+    padding-bottom:0;
+  }
+  .footer-section2-main,.fs2-left
+  {
+    width:100%;
+  }
+  .fs2-p 
+  {
+    text-align: center;
+  }
+  .f-in
+  {
+    padding: 7% 15% 6% 10%;
+    border-radius: 4px;
+    width: 80%;
+    margin-left: 9%;
+  background-position: 43px 10px;
+    text-align: center;
+  }
+  .subs 
+  {
+    display:none;
+  }
+  button.subs2 
+  {
+    display: block;
+    width: 50%;
+    text-align: center;
+    height: 45px;
+    color: #8AC832;
+    font-family: 'proxima_novalight';
+    font-size: 17px;
+    outline: medium none;
+    border: 2px solid #8AC832;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #343330;
+    font-weight: bold;
+    margin-left: 23%;
+    margin-top: 4%;
+  }
+  p.lat 
+  {
+    text-align: center;
+  }
+  .social-ul
+  {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .social-ul li 
+  {
+    padding-right: 11%;
+  }
+  .fs2-right
+  {
+    width:100%;
+  }
+  .fr-p 
+  {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .fr-p2
+  {
+    padding-left:10%;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width:480px) and (max-width: 650px)/*Samsung galaxy S4 Landscape*/
+{
+  #mobile-nav-modal-wrap #mobile-nav-wrap 
+  {
+    font-size: 26px;
+    top: 120%;
+    clear: both;
+  } 
+  .get-a
+  {
+    margin-left: 8%;
+  }
+  .bann-mid 
+  {
+    padding-top: 29.5%;
+  }
+  .get-p
+  {
+    margin-top: 18.5%;
+  }
+  .section5-left 
+  {
+  float:none;
+    margin: 0px auto;
+  }
+  .f-in 
+  {
+    padding: 6% 15% 5% 10%;
+    background-position: 140px 24px;
+  }
+  .con-mail
+  {
+    margin-bottom: 32%;
+  }
+}
+
+@media only screen and (min-width:0px) and (max-width: 320px) { 
+  #mobile-nav-modal-wrap #mobile-nav-wrap 
+  {
+    font-size: 26px;
+    top: 80%;
+    clear: both;
+  } 
+  .get-p 
+  {
+    margin-left: 23%;
+  } 
+  .bann-mid 
+  {
+    padding-top: 49.5%;
+  }
+  .h-start2 
+  {
+    font-size: 34px;
+  }
+  .section2-left,.section2-left-2
+  {
+    width: 86%;
+  }
+  .section2-left img,.section2-img img
+  {
+    width: 80%;
+  }
+  .box 
+  {
+    width: 270px;
+    height: 270px;
+  }
+  .con-mail 
+  {
+    margin-bottom: 13%;
+  }
+  .f-in
+  {
+    background-position: 23px 8px;
+  }
+  .social-ul li 
+  {
+    padding-right: 8%;
+  }
+  .fr-p 
+  {
+    font-size: 17px;
+  }
 }

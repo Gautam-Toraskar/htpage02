@@ -1,3 +1,34 @@
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url('../fonts/proximanova-regular/proximanova-regular-webfont.eot');
+  src: url('../fonts/proximanova-regular/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-regular/proximanova-regular-webfont.woff2') format('woff2'), url('../fonts/proximanova-regular/proximanova-regular-webfont.woff') format('woff'), url('../fonts/proximanova-regular/proximanova-regular-webfont.ttf') format('truetype'), url('../fonts/proximanova-regular/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_novalight';
+  src: url('../fonts/proximanova-light/proximanova-light-webfont.eot');
+  src: url('../fonts/proximanova-light/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-light/proximanova-light-webfont.woff2') format('woff2'), url('../fonts/proximanova-light/proximanova-light-webfont.woff') format('woff'), url('../fonts/proximanova-light/proximanova-light-webfont.ttf') format('truetype'), url('../fonts/proximanova-light/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_novasemibold';
+  src: url('../fonts/proximanova-semibold/proximanova-semibold-webfont.eot');
+  src: url('../fonts/proximanova-semibold/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.woff2') format('woff2'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.woff') format('woff'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.ttf') format('truetype'), url('../fonts/proximanova-semibold/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url('../fonts/proximanova-bold/proximanova-bold-webfont.woff2') format('woff2'), url('../fonts/proximanova-bold/proximanova-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .logo {
   background: url(../img/techreedLogo6.png) no-repeat center center / contain;
   height: 50px;
@@ -465,4 +496,26 @@ section#clients {
 .work-6 {
   background-image: url('../img/work6.png');
   background-color: #ffe100;
+}
+
+.footer-section1-left {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+}
+.footer-section1-left.left-1 {
+  background-image: url(../img/ima1.png);
+}
+.footer-section1-left.left-2 {
+  background-image: url(../img/ima2.png);
+}
+.footer-section1-left.left-3 {
+  background-image: url(../img/ima3.png);
+}
+.footer-section1-left.left-4 {
+  background-image: url(../img/ima4.png);
+}
+.footer-section1-left.left-5 {
+  background-image: url(../img/ima5.png);
 }
