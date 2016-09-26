@@ -1,0 +1,74 @@
+.logo {
+  background: url(../img/techreedLogo6.png) no-repeat center center / contain;
+  height: 50px;
+  width: 155px;
+  cursor: pointer;
+  float: left;
+  /*margin-top: 7px;*/
+}
+div.wrapperBanner {
+  background: url(../img/frontcover.png) no-repeat;
+  background-size: cover;
+  background-color: #E9E8E6;
+  height: 672px;
+  display: table;
+  width: 100%;
+}
+.cust-img {
+  width: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/app-makeover.png);
+  margin: 60px auto;
+}
+.cust-img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+section {
+  padding: 60px 0px;
+}
+header.remove {
+  -webkit-transform: translateY(-70px);
+  -moz-transform: translateY(-70px);
+  -ms-transform: translateY(-70px);
+  -o-transform: translateY(-70px);
+  transform: translateY(-70px);
+  opacity: 0;
+}
+
+header {
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  -webkit-transition: 0.3s all ease-in-out;
+  -moz-transition: 0.3s all ease-in-out;
+  -ms-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+div#taglineDiv {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(24, 24, 24, 1);
+  padding: 0px 20px;
+}
+
+#mainBanner .wrapperDiv {
+  display: table;
+  height: 100px;
+  width: 100%;
+  max-width: 788px;
+  margin: auto;
+}
