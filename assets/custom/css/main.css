@@ -74,6 +74,7 @@ section#mainBanner h1 {
   font-family: 'proxima_novalight';
   font-size: 50px;
 }
+
 header.remove {
   -webkit-transform: translateY(-70px);
   -moz-transform: translateY(-70px);
@@ -127,16 +128,23 @@ div#taglineDiv {
 .center-div {
   text-align: center;
 }
+
 #get-started h2 {
   font-family: 'proxima_novalight';
   font-size: 45px;
 }
+
 #get-started > .container > .row {
   margin-top: 40px;
 }
-section#get-started, #swift-section, #clients, #work {
+
+section#get-started,
+#swift-section,
+#clients,
+#work {
   padding-bottom: 60px;
 }
+
 .step-wrapper {
   box-shadow: 0px 1px 7px #c7c7c7;
   padding: 30px;
@@ -150,18 +158,22 @@ section#get-started, #swift-section, #clients, #work {
   font-size: 22px;
   text-align: center;
 }
+
 .step-wrapper h3 {
   font-family: 'proxima_novasemibold';
   font-size: 18px;
 }
+
 .step-wrapper p {
   font-family: 'proxima_nova_rgregular';
   font-size: 14px;
   text-align: left;
 }
-.step-wrapper img{
+
+.step-wrapper img {
   width: 70px;
 }
+
 .step-wrapper .step-img {
   width: 70px;
   height: 130px;
@@ -170,16 +182,18 @@ section#get-started, #swift-section, #clients, #work {
   background-size: contain;
   margin: auto;
 }
- .step-img.step1{
+
+.step-img.step1 {
   background-image: url(../img/step-1-img.png);
 }
- .step-img.step2{
+
+.step-img.step2 {
   background-image: url(../img/step-2-img.png);
 }
- .step-img.step3{
+
+.step-img.step3 {
   background-image: url(../img/step-3-img.png);
 }
-
 
 .about-app-setup {
   margin-top: 50px;
@@ -199,7 +213,6 @@ section#get-started, #swift-section, #clients, #work {
   font-family: 'proxima_nova_rgregular';
   font-weight: bold;
   font-size: 15px;
-
   -webkit-transition: 0.1s ease-in-out;
   -moz-transition: 0.1s ease-in-out;
   -ms-transition: 0.1s ease-in-out;
@@ -215,67 +228,84 @@ section#get-started, #swift-section, #clients, #work {
   color: #8ac832;
   border-color: #8ac832;
 }
+
 .btn-theme-color:hover {
   color: #fff;
   /*border-color: #8ac832;*/
   background-color: #8ac832;
 }
+
 .app-setup-wrapper {
   min-height: 430px;
 }
+
 .app-make-1 {
   background-color: #5cccfe;
 }
+
 .app-make-2 {
   background-color: #f86767;
 }
+
 .app-make-3 {
   background-color: #9080f8;
 }
+
 .app-make-4 {
   background-color: #d47ec6;
 }
+
 .app-make-1 button:hover {
   background-color: #fff;
   color: #5cccfe;
 }
+
 .app-make-2 button:hover {
   background-color: #fff;
   color: #f86767;
 }
+
 .app-make-3 button:hover {
   background-color: #fff;
   color: #9080f8;
 }
+
 .app-make-4 button:hover {
   background-color: #fff;
   color: #d47ec6;
 }
+
 .app-setup-wrapper h3 {
   color: white;
   font-family: 'proxima_novasemibold';
   font-size: 18px;
 }
+
 .app-setup-wrapper p {
   color: #55524f;
   font-family: 'proxima_novasemibold';
   font-size: 16px;
 }
+
 .app-make-1 .cust-img {
   background-image: url(../img/app-makeover.png);
-      margin: 75px 63px 46px 60px;
+  margin: 75px 63px 46px 60px;
 }
+
 .app-make-2 .cust-img {
   background-image: url(../img/app-enhancement.png);
 }
+
 .app-make-3 .cust-img {
   background-image: url(../img/extra-steps-3.png);
   width: 80%;
   margin: 24px 20px;
 }
+
 .app-make-4 .cust-img {
   background-image: url(../img/extra-steps-4.png);
 }
+
 #swift-section {
   background-color: #8ac832;
 }
@@ -285,26 +315,31 @@ section .section-col-wrapper {
   padding: 50px;
   text-align: center;
 }
+
 #swift-section h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   color: #9ace40;
   font-size: 35px;
 }
-#swift-section  .section-col-wrapper {
+
+#swift-section .section-col-wrapper {
   height: 615px;
 }
+
 #swift-section p {
   font-family: 'proxima_nova_rgregular';
   line-height: 35px;
   font-size: 20px;
   margin-bottom: 20px;
 }
+
 section h2 {
-    font-family: 'proxima_novalight';
-    font-size: 45px;
-    color: #55524f;
+  font-family: 'proxima_novalight';
+  font-size: 45px;
+  color: #55524f;
 }
+
 section#startups h3 {
   color: #6bd6fe;
   font-family: 'proxima_novasemibold';
@@ -316,31 +351,38 @@ section#startups h3 {
   font-size: 18px;
   font-family: 'proxima_nova_rgregular';
 }
-.startup-img{
+
+.startup-img {
   width: 60%;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   margin: 30px auto;
 }
+
 .startup-img:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
+
 #startups .section-row-wrapper .row {
   margin-bottom: 50px;
 }
-#startups .startup-1 .startup-img{
+
+#startups .startup-1 .startup-img {
   background-image: url(../img/startup-1.png);
 }
-#startups .startup-2 .startup-img{
+
+#startups .startup-2 .startup-img {
   background-image: url(../img/startup-2.png);
 }
-#startups .startup-3 .startup-img{
+
+#startups .startup-3 .startup-img {
   background-image: url(../img/startup-3.png);
 }
-#startups .startup-4 .startup-img{
+
+#startups .startup-4 .startup-img {
   background-image: url(../img/startup-4.png);
 }
 
@@ -404,6 +446,7 @@ section#clients {
 .shadow-box {
   box-shadow: 0px 2px 10px #8c8c8c;
 }
+
 #clients .after-title {
   font-family: 'proxima_novalight';
   font-size: 30px;
@@ -412,6 +455,7 @@ section#clients {
 #work .row {
   margin-top: 30px;
 }
+
 #work .section5-bottom span.proname a {
   font-size: 14px;
   font-family: 'proxima_novasemibold';
@@ -420,19 +464,21 @@ section#clients {
   display: inline-block;
   text-decoration: none;
 }
+
 #work ul.bottom-ul {
   list-style: none;
   padding: 0;
   margin: 0;
   float: right;
 }
+
 #work ul.bottom-ul li {
   float: right;
   margin: 5px;
 }
-#work ul.bottom-ul li a {
 
-}
+#work ul.bottom-ul li a {}
+
 #work ul.bottom-ul li a div {
   width: 30px;
   height: 30px;
@@ -440,22 +486,28 @@ section#clients {
   background-size: contain;
   background-position: center;
 }
+
 #work ul.bottom-ul li a div.android {
   background-image: url(../img/androidTab.png);
 }
+
 #work ul.bottom-ul li a div.open-tab {
   background-image: url(../img/open-new-tab.png);
   width: 20px;
   margin: 0 10px;
 }
+
 #work ul.bottom-ul li a div.apple {
   background-image: url(../img/appleTab.png);
 }
+
 #work .bottom2-p {
-  font-size:  14px;
+  font-size: 14px;
   font-weight: bold;
   font-family: 'proxima_nova_rgregular';
 }
+
+
 /* #clients .client-img {
   width: 50%;
   background-size: contain;
@@ -505,22 +557,27 @@ section#clients {
   background-image: url('../img/work1.png');
   background-color: #2f323d;
 }
+
 .work-2 {
   background-image: url('../img/work2.png');
   background-color: #4c311e;
 }
+
 .work-3 {
   background-image: url('../img/work3.png');
   background-color: #4e2ba2;
 }
+
 .work-4 {
   background-image: url('../img/work4.png');
   background-color: #1faca6;
 }
+
 .work-5 {
   background-image: url('../img/work5.png');
   background-color: #f1695b;
 }
+
 .work-6 {
   background-image: url('../img/work6.png');
   background-color: #ffe100;
@@ -532,18 +589,23 @@ section#clients {
   background-repeat: no-repeat;
   height: 320px;
 }
+
 .footer-section1-left.left-1 {
   background-image: url(../img/ima1.png);
 }
+
 .footer-section1-left.left-2 {
   background-image: url(../img/ima2.png);
 }
+
 .footer-section1-left.left-3 {
   background-image: url(../img/ima3.png);
 }
+
 .footer-section1-left.left-4 {
   background-image: url(../img/ima4.png);
 }
+
 .footer-section1-left.left-5 {
   background-image: url(../img/ima5.png);
 }
