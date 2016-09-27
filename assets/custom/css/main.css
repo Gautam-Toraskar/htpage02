@@ -199,6 +199,11 @@ section#get-started, #swift-section, #clients, #work {
   font-family: 'proxima_nova_rgregular';
   font-weight: bold;
   font-size: 15px;
+
+  -webkit-transition: 0.1s ease-in-out;
+  -moz-transition: 0.1s ease-in-out;
+  -ms-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .btn-white {
@@ -210,7 +215,14 @@ section#get-started, #swift-section, #clients, #work {
   color: #8ac832;
   border-color: #8ac832;
 }
-
+.btn-theme-color:hover {
+  color: #fff;
+  /*border-color: #8ac832;*/
+  background-color: #8ac832;
+}
+.app-setup-wrapper {
+  min-height: 430px;
+}
 .app-make-1 {
   background-color: #5cccfe;
 }
@@ -222,6 +234,22 @@ section#get-started, #swift-section, #clients, #work {
 }
 .app-make-4 {
   background-color: #d47ec6;
+}
+.app-make-1 button:hover {
+  background-color: #fff;
+  color: #5cccfe;
+}
+.app-make-2 button:hover {
+  background-color: #fff;
+  color: #f86767;
+}
+.app-make-3 button:hover {
+  background-color: #fff;
+  color: #9080f8;
+}
+.app-make-4 button:hover {
+  background-color: #fff;
+  color: #d47ec6;
 }
 .app-setup-wrapper h3 {
   color: white;

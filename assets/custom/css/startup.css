@@ -409,6 +409,7 @@ button.subs2 {
   width: 20%;
   height: auto;
   /*display: table;*/
+  height: 320px;
   float: left;
 }
 
@@ -669,17 +670,38 @@ a.pagi-image {
   margin-bottom: 3%;
 }
 
-@media only screen and (min-width:0px) and (max-width: 470px)/*Samsung galaxy S4 Portrait*/
-{ 
-  .con-mail
-  {
+
+@media only screen and (max-width: 992px) {
+
+  .footer-section1-left {
+    width: 100%;
+    height: auto;
+  }
+  /* .app-make-1 .cust-img {
+    margin: 55px 63px 46px 60px;
+  } */
+  .app-make-1 .cust-img,
+  .app-make-2 .cust-img,
+  .app-make-3 .cust-img
+  .app-make-4 .cust-img {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-section1-left {
+    width: 100%;
+    height: auto;
+  }
+
+}
+@media only screen and (min-width:0px) and (max-width: 470px) {
+  .con-mail {
     margin-bottom:19%;
   }
 }
-@media only screen and (min-width:0px) and (max-width: 650px)
-{
-  html,body
-  {
+@media only screen and (min-width:0px) and (max-width: 650px) {
+  html,body {
     overflow-x:hidden !important;
   }
   html
@@ -699,7 +721,7 @@ a.pagi-image {
   {
     padding-top: 21.5%;
   }
-  .ban-p 
+  .ban-p
   {
     color: #ffffff;
     font-family: 'proxima_novalight';
@@ -707,7 +729,7 @@ a.pagi-image {
     text-align: center;
     line-height: 37px;
   }
-  .get-p 
+  .get-p
   {
     text-align: center;
     margin-left: 31%;
@@ -718,7 +740,7 @@ a.pagi-image {
     margin-left: 0%;
   }
   .cross-ul
-  {   
+  {
     background:url('../img/greenclose.png') right no-repeat;
     width: 18px;
     height: 18px;
@@ -734,8 +756,8 @@ a.pagi-image {
     color:#ffffff;
     text-decoration:none;
   }
-  
-  .text-center ul li a 
+
+  .text-center ul li a
   {
     font-size: 18px;
     font-weight: 900;
@@ -756,33 +778,33 @@ a.pagi-image {
     background:url('../img/plusbig.png') right no-repeat;
     margin-right: 6%;
     background-position-y: 15px;
-  } 
+  }
   .m-first2
   {
     background:url('../img/plusbig.png') right no-repeat;
     margin-right: 6%;
     background-position-y: 15px;
     margin-bottom: 0px !important;
-  } 
+  }
   .m-second
   {
     background:url('../img/plusbig.png') right no-repeat;
     margin-right: 6%;
     background-position-y: 15px;
-  } 
+  }
   .m-second2
   {
     background:url('../img/plusbig.png') right no-repeat;
     margin-right: 6%;
     background-position-y: 15px;
     margin-bottom: 0px !important;
-  }   
+  }
   .m-fourth
   {
     background:url('../img/plusbig.png') right no-repeat;
     margin-right: 6%;
     background-position-y: 15px;
-  } 
+  }
   .m-child-m2
   {
     list-style: none;
@@ -792,7 +814,7 @@ a.pagi-image {
     padding-right: 0px;
     margin-right: 0px;
     display:none;
-  } 
+  }
   .m-child-m2  li
   {
     padding-top: 0px !important;
@@ -810,7 +832,7 @@ a.pagi-image {
     padding-right: 0px;
     margin-right: 0px;
     display:none;
-  } 
+  }
   .m2-child-m2  li
   {
     padding-top: 0px !important;
@@ -824,7 +846,7 @@ a.pagi-image {
     background-position-y: 20px;
     background-position-x: 93.6%;
   }
-  ul.m3-child-m2 
+  ul.m3-child-m2
   {
     list-style: none;
     padding-left: 0px;
@@ -857,14 +879,14 @@ a.pagi-image {
   .last-li
   {
     border-bottom:1px solid #ffffff !important;
-  } 
+  }
   .m3-first
   {
   background: url('../img/plusbig.png') right no-repeat;
     background-position-y: 20px;
     background-position-x: 93.6%;
-  } 
-  ul.m4-child-m2 
+  }
+  ul.m4-child-m2
   {
     list-style: none;
     padding-left: 0px;
@@ -881,14 +903,14 @@ a.pagi-image {
   .m4-child-m2 li a
   {
     font-weight: normal !important;
-  } 
+  }
   .m4-first
   {
   background: url('../img/plusbig.png') right no-repeat;
     background-position-y: 20px;
     background-position-x: 93.6%;
-  } 
-  ul.m5-child-m2 
+  }
+  ul.m5-child-m2
   {
     list-style: none;
     padding-left: 0px;
@@ -964,7 +986,7 @@ a.pagi-image {
     width: 87%;
     margin-left: 6%;
     margin-top: 7%;
-  } 
+  }
   .section3
   {
     width:100%;
@@ -978,7 +1000,7 @@ a.pagi-image {
     width:100%;
     float:none;
   }
-  p.section3-imagep 
+  p.section3-imagep
   {
     text-align: center;
   }
@@ -986,7 +1008,7 @@ a.pagi-image {
   {
     width:100%;
   }
-  .section3-maincontent 
+  .section3-maincontent
   {
     width: 94%;
   }
@@ -999,13 +1021,13 @@ a.pagi-image {
   {
     width:91%;
   }
-  p.section4-p 
+  p.section4-p
   {
     line-height: 36px;
     padding-top: 7%;
     font-size: 39px;
   }
-  .section4-p2 
+  .section4-p2
   {
     font-size: 25px;
     padding-top: 4%;
@@ -1014,18 +1036,19 @@ a.pagi-image {
   {
     width:100%;
   }
-  /*.box 
+  /*.box
   {
     width: 426px;
     height: 426px;
   }*/
-  .section5-left 
+  .section5-left
   {
     margin-bottom: 5%;
-  } 
+  }
   .footer-section1-left
   {
     width:100%;
+    height: auto;
   }
   .footer-section1-left img
   {
@@ -1047,7 +1070,7 @@ a.pagi-image {
   {
     width:100%;
   }
-  .fs2-p 
+  .fs2-p
   {
     text-align: center;
   }
@@ -1060,11 +1083,11 @@ a.pagi-image {
   background-position: 43px 10px;
     text-align: center;
   }
-  .subs 
+  .subs
   {
     display:none;
   }
-  button.subs2 
+  button.subs2
   {
     display: block;
     width: 50%;
@@ -1082,7 +1105,7 @@ a.pagi-image {
     margin-left: 23%;
     margin-top: 4%;
   }
-  p.lat 
+  p.lat
   {
     text-align: center;
   }
@@ -1091,7 +1114,7 @@ a.pagi-image {
     margin-top: 5%;
     margin-left: 10%;
   }
-  .social-ul li 
+  .social-ul li
   {
     padding-right: 11%;
   }
@@ -1099,7 +1122,7 @@ a.pagi-image {
   {
     width:100%;
   }
-  .fr-p 
+  .fr-p
   {
     padding-left: 0px;
     text-align: center;
@@ -1111,19 +1134,19 @@ a.pagi-image {
   }
 }
 
-@media only screen and (min-width:480px) and (max-width: 650px)/*Samsung galaxy S4 Landscape*/
-{
-  #mobile-nav-modal-wrap #mobile-nav-wrap 
-  {
+
+
+@media only screen and (min-width:480px) and (max-width: 650px) {
+  #mobile-nav-modal-wrap #mobile-nav-wrap {
     font-size: 26px;
     top: 120%;
     clear: both;
-  } 
+  }
   .get-a
   {
     margin-left: 8%;
   }
-  .bann-mid 
+  .bann-mid
   {
     padding-top: 29.5%;
   }
@@ -1131,12 +1154,12 @@ a.pagi-image {
   {
     margin-top: 18.5%;
   }
-  .section5-left 
+  .section5-left
   {
   float:none;
     margin: 0px auto;
   }
-  .f-in 
+  .f-in
   {
     padding: 6% 15% 5% 10%;
     background-position: 140px 24px;
@@ -1147,22 +1170,22 @@ a.pagi-image {
   }
 }
 
-@media only screen and (min-width:0px) and (max-width: 320px) { 
-  #mobile-nav-modal-wrap #mobile-nav-wrap 
+@media only screen and (min-width:0px) and (max-width: 320px) {
+  #mobile-nav-modal-wrap #mobile-nav-wrap
   {
     font-size: 26px;
     top: 80%;
     clear: both;
-  } 
-  .get-p 
+  }
+  .get-p
   {
     margin-left: 23%;
-  } 
-  .bann-mid 
+  }
+  .bann-mid
   {
     padding-top: 49.5%;
   }
-  .h-start2 
+  .h-start2
   {
     font-size: 34px;
   }
@@ -1174,12 +1197,12 @@ a.pagi-image {
   {
     width: 80%;
   }
-  .box 
+  .box
   {
     width: 270px;
     height: 270px;
   }
-  .con-mail 
+  .con-mail
   {
     margin-bottom: 13%;
   }
@@ -1187,11 +1210,11 @@ a.pagi-image {
   {
     background-position: 23px 8px;
   }
-  .social-ul li 
+  .social-ul li
   {
     padding-right: 8%;
   }
-  .fr-p 
+  .fr-p
   {
     font-size: 17px;
   }
