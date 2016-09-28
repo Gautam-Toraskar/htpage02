@@ -6,13 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Bootstrap 101 Template</title>
+  <title>HT for startups</title>
   <!-- Bootstrap -->
+  <link rel="icon" href="assets/custom/img/favicon.png">
   <link href="assets/packages/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/custom/css/main.css" />
   <link rel="stylesheet" href="assets/custom/css/navbar.css" />
+  <link rel="stylesheet" href="assets/custom/css/footer.css" />
   <link rel="stylesheet" href="assets/custom/css/startup.css" />
+
+  <link rel="stylesheet" href="assets/custom/css/font-awesome.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -20,16 +25,282 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <style>
-
+    @media screen and (max-width: 768px) {
+      #floatingHeader, #floatingHeader nav.navbar.navbar-default {
+          background: #000;
+          padding: 0;
+      }
+      .navbar-collapse.collapse {
+        display: none;
+      }
+      #bs-example-navbar-collapse-1 {
+        display: none;
+      }
+      .collapse.in {
+        display: none;
+      }
+      #floatingHeader .navbar-default .navbar-toggle .icon-bar {
+          background-color: #fff;
+      }
+      #floatingHeader .navbar-default a.navbar-brand, a.navbar-brand {
+          border-color: #9ace40;
+          color: #9ace40;
+      }
+      .navbar-toggle {
+          border: none;
+          border-radius: 0;
+      }
+      .navbar-default a.navbar-brand {
+        margin-top: 15px;
+        margin-left: 15px;
+        padding: 3px;
+        display: block;
+      }
+      .navbar-default .navbar-toggle .icon-bar {
+          background-color: #9ace40;
+      }
+      .navbar-toggle {
+          position: relative;
+          float: right;
+          padding: 9px 10px;
+          margin-top: 15px;
+          margin-right: 15px;
+          margin-bottom: 8px;
+          background-color: transparent;
+          background-image: none;
+          border: none;
+          border-radius: 0;
+      }
+      section#mainBanner h1 {
+          font-family: 'proxima_novalight';
+          font-size: 26px;
+      }
+      div#taglineDiv {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          color: white;
+          text-shadow: 1px 1px 2px rgba(24, 24, 24, 1);
+          padding: 0px 20px;
+          padding-bottom: 80px;
+      }
+      #get-started h2 {
+          font-family: 'proxima_novalight';
+          font-size: 25px;
+          text-align: center !important;
+      }
+      .app-make-1 .cust-img, .app-make-2 .cust-img, .app-make-3 .cust-img, .app-make-4 .cust-img {
+          margin: 70px auto;
+      }
+      section .section-col-wrapper {
+          background-color: white;
+          padding: 20px;
+          text-align: center;
+      }
+      #swift-section .section-col-wrapper {
+          height: auto;
+      }
+      #swift-section p {
+          line-height: 26px;
+          font-size: 16px;
+      }
+      .section-col-wrapper {
+        margin-bottom: 20px;
+      }
+      #startups p {
+          font-size: 16px;
+          line-height: 25px;
+      }
+      section#startups h3 {
+          font-size: 20px;
+          line-height: 25px;
+          text-align: center;
+      }
+      #clients .section-row-wrapper {
+          max-width: 100%;
+          padding: 20px;
+      }
+      #clients h2 {
+          font-family: 'proxima_novalight';
+          font-size: 30px;
+          color: #55524f;
+          font-weight: bold;
+      }
+      #clients .after-title {
+          font-size: 18px;
+      }
+      .client-7, .client-8 {
+           width: auto;
+          margin: 18px auto;
+      }
+      #clients .section-row-wrapper .col-xs-6,
+      #clients .section-row-wrapper .col-xs-12 {
+        margin-bottom: 20px;
+      }
+      #work > .container > .row > .col-xs-12 {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
   </style>
 </head>
 
 <body>
+<!-- <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>/.nav-collapse
+      </div>
+    </nav> -->
+
+    <style>
+      #mobile-nav {
+        position: fixed;
+        background: #9ace40;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 4;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+      #mobile-nav .menu-wrapper {
+        /*height: 800px;*/
+        margin-top: 55px;
+      }
+      #mobile-nav .menu-wrapper ul.m-nav li {
+        border-bottom: 1px solid #f4f4f4;
+      }
+      #mobile-nav .menu-wrapper ul.mobile-sub-menu li {
+        /*border-bottom: none;*/
+        border-bottom: 1px solid #f4f4f4;
+      }
+      #mobile-nav .menu-wrapper ul.mobile-sub-menu li:last-child {
+        border-bottom: none;
+      }
+      #mobile-nav .menu-wrapper ul.mobile-sub-menu {
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+      }
+      #mobile-nav .menu-wrapper ul.m-nav li a{
+        padding: 10px 10px;
+        display: block;
+        font-weight: bold;
+        font-family: 'proxima_nova_rgbold', 'sans-serif';
+        font-size: 17px;
+        color: white;
+        letter-spacing: 1px;
+      }
+      a:hover, a:focus, a:visited{
+        text-decoration: none;
+      }
+      #mobile-nav .menu-wrapper ul.mobile-sub-menu li a {
+        padding: 4px 10px;
+        text-decoration: none;
+      }
+      #mobile-nav .mobile-sub-menu.off {
+        display: none;
+      }
+      #mobile-nav .mobile-sub-menu.on {
+        display: block;
+      }
+      #mobile-nav .plus {
+        background-image: url(assets/custom/img/plus.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15px;
+        height: 15px;
+        display: block;
+        float: right;
+        margin: 5px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+      }
+      #mobile-nav .plus.rotate {
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Safari */
+        transform: rotate(45deg);
+      }
+      .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle.ham-btm:hover {
+          background-color: transparent;
+      }
+      #mobile-nav .menu-footer-text {
+        position: absolute;
+        top: 100%;
+        margin-top: -20px;
+        color: white;
+        width: 100%;
+        font-family: 'proxima_nova_rgregular';
+        font-size: 15px;
+      }
+    </style>
+    <div id="mobile-nav" class="off" style="display: none;">
+      <div class="menu-wrapper">
+        <ul class="m-nav">
+          <li>
+            <a href="">ABOUT</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="">OFFERINGS <span class="plus"></span></a>
+            <ul class="mobile-sub-menu off">
+              <li><a tabindex="-1" href="#">App Strategy</a></li>
+              <li><a tabindex="-1" href="#">App Design</a></li>
+              <li><a tabindex="-1" href="#">App Dev</a></li>
+              <li><a tabindex="-1" href="#">App Testing</a></li>
+              <li><a tabindex="-1" href="#">App Management</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">WHY HT FOR STARTUPS</a>
+          </li>
+          <li><a href="">INDUSTRIES</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+        <a class="menu-footer-text text-center" href="http://www.helixtech.co/">Go To helixtech.co</a>
+      </div>
+    </div>
   <nav id="navigation" class="navbar navbar-default">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed ham-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -80,7 +351,7 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed ham-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -316,44 +587,44 @@ core philosophy.
             <h2>We measure our success by yours</h2>
             <span class="after-title">Our work has been featured in</span>
             <div class="row">
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-6">
                 <div class="client-img client-1">
                   <img src="assets/custom/img/product-hunt.png" alt="" class="img-responsive">
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-6">
                 <div class="client-img client-2">
                   <img src="assets/custom/img/appstore.png" alt="" class="img-responsive">
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-6">
                 <div class="client-img client-3">
                   <img src="assets/custom/img/webrazzi.png" alt="" class="img-responsive">
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-6">
                 <div class="client-img client-4">
                   <img src="assets/custom/img/f6s.png" alt="" class="img-responsive">
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-12">
                 <div class="client-img client-5">
                   <img src="assets/custom/img/london-partners.png" alt="" class="img-responsive">
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-12">
                 <div class="client-img client-6">
                   <img src="assets/custom/img/businessmatters.png" alt="" class="img-responsive">
                 </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-2 col-md-offset-4">
+              <div class="col-md-2 col-md-offset-4 col-xs-6">
                 <div class="client-img client-7">
                   <img src="assets/custom/img/travaolution.png" alt="" class="img-responsive">
                 </div>
               </div>
-              <div class="col-md-2">
+              <div class="col-md-2 col-xs-6">
                 <div class="client-img client-8">
                   <img src="assets/custom/img/MC.png" alt="" class="img-responsive">
                 </div>
@@ -368,7 +639,7 @@ core philosophy.
   <section id="work">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <div class="work work-1"></div>
           <div class="section5-bottom">
             <span class="proname"><a href="http://www.timelooper.com/" target="_blank">TIME LOOPER</a>
@@ -391,7 +662,7 @@ core philosophy.
             <p class="bottom2-p">A destination-based virtual reality time travel app that helps you re-live memorable moments of amazing places.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <div class="work work-2"></div>
             <div class="section5-bottom">
               <span class="proname"><a href="http://www.timelooper.com/" target="_blank">CHALL</a>
@@ -413,7 +684,7 @@ core philosophy.
               </p>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <div class="work work-3"></div>
           <div class="section5-bottom">
             <span class="proname"><a href="http://www.timelooper.com/" target="_blank">CLEAN SMS</a>
@@ -437,7 +708,7 @@ core philosophy.
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <div class="work work-4"></div>
           <div class="section5-bottom">
             <span class="proname"><a href="http://www.timelooper.com/" target="_blank">BETTER</a>
@@ -454,7 +725,7 @@ core philosophy.
             </p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <div class="work work-5"></div>
           <div class="section5-bottom">
             <span class="proname"><a href="http://www.timelooper.com/" target="_blank">CAMPUS WINGS</a>
@@ -481,7 +752,7 @@ core philosophy.
             </p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <div class="work work-6"></div>
           <div class="section5-bottom">
             <span class="proname"><a href="http://www.timelooper.com/" target="_blank">CAMPUS WINGS</a>
@@ -617,48 +888,67 @@ core philosophy.
       <p class="f-con1 con-mail"><a href="mailto:contact@helixtech.eu">contact@helixtech.eu</a></p>
     </div>
   </div>
-  <div class="footer-section2">
-    <div class="footer-section2-main">
-      <div class="fs2-left">
-        <p class="fs2-p">Subscribe To Our Newsletter</p>
-        <p class="fp-input">
-          <input type="text" placeholder="Enter Your Email Id" class="f-in">
-          <a href="javascript:void(0)" class="subs">Subscribe</a></p>
-        <button type="submit" form="form1" value="Subscribe" class="subs2">SUBMIT</button>
-        <!-- <p class="lat">See our latest work on our social channels.</p> -->
-        <ul class="social-ul">
-          <li>
-            <a href="https://www.facebook.com/HelixTechIN" class="fb" target="_blank"></a>
-          </li>
-          <li>
-            <a href="http://www.twitter.com/helix_tech" class="tw" target="_blank"></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/helixtech/" class="ins" target="_blank"></a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/user/helixtechin" class="you" target="_blank"></a>
-          </li>
-          <li>
-            <a href="https://plus.google.com/u/0/+HelixtechIn" class="gp" target="_blank"></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/company/3607630" class="in" target="_blank"></a>
-          </li>
-        </ul>
-      </div>
-      <div class="fs2-right">
-        <!-- <p class="fr-p">We're Hiring</p> -->
-        <p class="fr-p2">Do you have a project we can help you with? Why not get started by trying out our
-          <br><a href="http://careers.helixtech.co/" class="fr-p2-link" target="_blank">project planner</a></p>
+  <footer>
+    <div class="upper-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-5 f-w-s">
+            <h5 style="display: none;">Get in Touch</h5>
+            <a href="mailto:contact@helixtech.co" class="footer_info" style="margin-bottom:0px; ">contact@helixtech.co</a><br>
+            <a href="tel:+918326520244" class="footer_info">+91-832-6520244</a>
+            <p class="hidden-xs" style="color:#B4B4B4;">Helix Tech Info Systems Pvt. Ltd.<br>Porvorim Goa - 403521 - India.</p>
+          </div>
+          <div class="col-md-6 col-sm-6 width_adj">
+            <h5 style="display: none;">Tell us about your project</h5>
+            <p class="fr-p2">We’re growing fast and So will you ! We are always on the lookout for coders &amp; marketers to work with us in London, Bangalore and Goa<br><a style="text-decoration:underline;" class="footer_info" href="http://careers.helixtech.co/">Join our team.</a></p>
+            <a id="getstarted" class="prefix button prox" target="_blank" href="http://httest.in/project-planner/test/test.html" style="display: none;">Get Started</a>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-section3">
-    <div class="footer-section3-main">
-      <p class="fs3-p">© Helix Tech Info Systems Pvt. Ltd. 2016 All Rights Reserved</p>
+    <div class="lower-footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-sm-6 social_footer">
+            <div>
+              <style type="text/css">
+
+              </style>
+              <div class="social-div">
+                <a href="https://www.facebook.com/HelixTechIN" target="_blank">
+                  <span class="icon-facebook transition-properties"></span>
+                </a>
+                <a href="http://www.twitter.com/helix_tech" target="_blank">
+                  <span class="icon-twitter transition-properties"></span>
+                </a>
+                <a href="https://plus.google.com/u/0/+HelixtechIn" target="_blank">
+                  <span class="icon-google-plus transition-properties"></span>
+                </a>
+                <a href="https://www.linkedin.com/company/3607630" target="_blank">
+                  <span class="icon-linkedin transition-properties"></span>
+                </a>
+                <a href="http://www.pinterest.com/helixtech/" target="_blank">
+                  <span class="icon-pinterest transition-properties"></span>
+                </a>
+                <a href="https://www.youtube.com/user/helixtechin" target="_blank">
+                  <span class="icon-youtube-play transition-properties"></span>
+                </a>
+                <a href="https://www.instagram.com/helixtech/" target="_blank">
+                  <span class="icon-instagram transition-properties"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 footer_text margin_adj10">
+            <h5 class="footer_text"><div class="footer_txt">© 2016 Helix Tech &nbsp; All Rights Reserved. </div>
+            <!-- <div class="footer_txt marg_10"><a class="" href="#" style="color: #5fb336;">Terms of Service</a> and <a href="#" style="color: #5fb336;">Privacy Policy</a></div>--></h5>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </footer>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="assets/packages/jquery/js/jquery.min.js"></script>

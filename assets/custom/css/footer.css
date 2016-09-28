@@ -1,0 +1,176 @@
+footer div.upper-footer{
+  background-color: #000;
+  padding: 1em 0 1em 0;
+}
+footer h5 {
+    color: #5fb336;
+    font-family: "proxima-nova",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer_info {
+    font-size: 30px;
+}
+.footer_info {
+    color: #5fb336 !important;
+    font-family: 'Montserrat',sans-serif;
+    cursor: pointer;
+}
+.footer_info:hover{
+  color: #fff !important;
+  text-decoration: none;
+}
+.fr-p2 {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 8%;
+    padding-top: 0%;
+    line-height: 1.42857143;
+}
+footer p {
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+}
+.width_adj {
+    float: right;
+}
+.lower-footer {
+    background-color: #1b1b1d;
+}
+.lower-footer .container {
+    max-width: none !important;
+    padding: 10px 40px !important;
+    width: auto !important;
+}
+.social_footer {
+    float: right;
+    text-align: right;
+}
+.social-div {
+    /* overflow: hidden; */
+    color: white;
+    width: 100%;
+    padding: 13px 0;
+}
+div.social-div a {
+    text-decoration: none;
+}
+div.social-div span {
+    font-size: 34px;
+    margin-right: 13px;
+    color: #a8a8a8;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    bottom: 0;
+}
+div.social-div span {
+    font-size: 34px;
+    margin-right: 13px;
+    color: #a8a8a8;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    bottom: 0;
+}
+div.social-div span:hover{
+  color: white;
+  bottom: 5px;
+}
+div.social-div span.icon-facebook:hover{
+  color: #3c599f;
+}
+div.social-div span.icon-twitter:hover{
+  color: #2fa9f6;
+}
+div.social-div span.icon-google-plus:hover{
+  color: #dd4c39;
+}
+div.social-div span.icon-linkedin:hover{
+  color: #007bb6;
+}
+div.social-div span.icon-pinterest:hover{
+  color: #cb2026;
+}
+div.social-div span.icon-youtube-play:hover{
+  color: #a42c2e;
+}
+div.social-div span.icon-instagram:hover{
+  color: #205a80;
+}
+div.lower-footer p, div.lower-footer h5 {
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    font-weight: normal;
+    font-family: 'raleway';
+    color: white;
+}
+
+.footer_text {
+    color: #83848e;
+    line-height: 20px;
+    padding-bottom: 2px;
+    font-family: lato;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.footer_text {
+    float: left;
+    text-align: left;
+}
+.footer_txt {
+    float: left;
+    margin-right: 5px;
+    width: auto;
+}
+@media (min-width: 980px) {
+  .upper-footer .container {
+      padding: 10px 40px !important;
+      width: auto !important;
+  }
+  .col-md-6 {
+      width: 50%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1038px) {
+  .footer_info{
+    font-size: 25px !important;
+  }
+}
+@media only screen and (max-width: 650px) and (min-width: 0px) {
+  .fr-p2 {
+      padding-left: 0%;
+      width: 100%;
+  }
+  .lower-footer .container {
+    padding: 10px 30px !important;
+  }
+  .social_footer {
+       float: left;
+      text-align: right;
+  }
+}
+@media (max-width: 320px) {
+  div.social-div span {
+      font-size: 21px;
+      }
+      .proxlight {
+        margin-top: 10px;
+      line-height: 25px;
+      font-size: 26px;
+  }
+  .footer_info {
+      font-size: 26px;
+  }
+}

@@ -45,6 +45,7 @@ div.wrapperBanner {
   height: 672px;
   display: table;
   width: 100%;
+  background-position: center;
 }
 
 .cust-img {

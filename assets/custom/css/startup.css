@@ -164,14 +164,14 @@
   font-weight: 700;
 }
 
-.fr-p2 {
+/* .fr-p2 {
   font-family: 'proxima_nova_rgregular';
   color: #9B9FA2;
   font-size: 18px;
   padding-left: 20%;
   padding-top: 1%;
   line-height: 26px;
-}
+} */
 
 .fr-p2-link {
   color: #8AC832;
@@ -747,10 +747,10 @@ a.pagi-image {
     display: block;
     background-position-y: 3px;
   }
-  .text-center
-  {
-    text-align:left !important;
-  }
+/*   .text-center
+{
+  text-align:left !important;
+} */
   .text-center ul li a:hover
   {
     color:#ffffff;
@@ -1127,11 +1127,32 @@ a.pagi-image {
     padding-left: 0px;
     text-align: center;
   }
-  .fr-p2
-  {
-    padding-left:10%;
-    width: 90%;
+  .section6-main {
+      width: 80%;
   }
+  .section6-main-left, .section6-main-right {
+      width: 100%;
+  }
+  .form-left-1 {
+      border-left: 1px solid #8AC832;
+  }
+  .form-field-lable {
+      padding-left: 0%;
+      text-align: center;
+  }
+  .form-field-lable2 {
+      text-align: center;
+      padding-top: 2%;
+      margin-bottom: 0%;
+  }
+  .form-bottom {
+      border: none;
+  }
+  .textarea_project {
+      width: 100%;
+      border: 1px solid #8AC832;
+  }
+
 }
 
 
