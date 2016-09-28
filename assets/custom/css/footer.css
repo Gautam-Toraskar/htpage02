@@ -148,6 +148,32 @@ div.lower-footer p, div.lower-footer h5 {
     font-size: 25px !important;
   }
 }
+@media screen and (max-width: 768px) {
+  div.social-div span {
+      margin-right: 13px;
+  }
+  div.social-div span {
+      font-size: 30px;
+
+  }
+  h5.footer_text {
+    float: none;
+  }
+  .footer_txt {
+      float: left;
+      margin-right: 5px;
+      width: 100%;
+      text-align: center;
+  }
+  .social-div {
+      overflow: hidden;
+      color: white;
+      width: 300px;
+      padding: 13px 0;
+      margin: auto;
+      float: none;
+  }
+}
 @media only screen and (max-width: 650px) and (min-width: 0px) {
   .fr-p2 {
       padding-left: 0%;
@@ -175,6 +201,14 @@ div.lower-footer p, div.lower-footer h5 {
       margin-right: 5px;
       width: 100%;
       text-align: center;
+  }
+  .social-div {
+      overflow: hidden;
+      color: white;
+      width: 300px;
+      padding: 13px 0;
+      margin: auto;
+      float: none;
   }
 }
 @media (max-width: 320px) {
