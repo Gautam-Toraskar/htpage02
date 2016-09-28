@@ -75,7 +75,7 @@
 }
 
 .navbar-default .dropdown-menu {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.33);
   color: white;
   box-shadow: none;
   border: none;

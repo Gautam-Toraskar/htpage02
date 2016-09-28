@@ -610,3 +610,214 @@ section#clients {
 .footer-section1-left.left-5 {
   background-image: url(../img/ima5.png);
 }
+
+#mobile-nav {
+  position: fixed;
+  background: #9ace40;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#mobile-nav .menu-wrapper {
+  /*height: 800px;*/
+  margin-top: 55px;
+}
+#mobile-nav .menu-wrapper ul.m-nav li {
+  border-bottom: 1px solid #f4f4f4;
+}
+#mobile-nav .menu-wrapper ul.mobile-sub-menu li {
+  /*border-bottom: none;*/
+  border-bottom: 1px solid #f4f4f4;
+}
+#mobile-nav .menu-wrapper ul.mobile-sub-menu li:last-child {
+  border-bottom: none;
+}
+#mobile-nav .menu-wrapper ul.mobile-sub-menu {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#mobile-nav .menu-wrapper ul.m-nav li a{
+  padding: 10px 10px;
+  display: block;
+  font-weight: bold;
+  font-family: 'proxima_nova_rgbold', 'sans-serif';
+  font-size: 17px;
+  color: white;
+  letter-spacing: 1px;
+}
+a:hover, a:focus, a:visited{
+  text-decoration: none;
+}
+#mobile-nav .menu-wrapper ul.mobile-sub-menu li a {
+  padding: 4px 10px;
+  text-decoration: none;
+}
+#mobile-nav .mobile-sub-menu.off {
+  display: none;
+}
+#mobile-nav .mobile-sub-menu.on {
+  display: block;
+}
+#redirect-link {
+  background-image: url(../img/redirect.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 40px;
+
+}
+#mobile-nav .plus {
+  background-image: url(../img/plus.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  display: block;
+  float: right;
+  margin: 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#mobile-nav .plus.rotate {
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg);
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle.ham-btm:hover {
+    background-color: transparent;
+}
+#mobile-nav .menu-footer-text {
+  position: absolute;
+  top: 100%;
+  margin-top: -20px;
+  color: white;
+  width: 100%;
+  font-family: 'proxima_nova_rgregular';
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  #floatingHeader, #floatingHeader nav.navbar.navbar-default {
+      background: #000;
+      padding: 0;
+  }
+  .navbar-collapse.collapse {
+    display: none;
+  }
+  #bs-example-navbar-collapse-1 {
+    display: none;
+  }
+  .collapse.in {
+    display: none;
+  }
+  #floatingHeader .navbar-default .navbar-toggle .icon-bar {
+      background-color: #fff;
+  }
+  #floatingHeader .navbar-default a.navbar-brand, a.navbar-brand {
+      border-color: #9ace40;
+      color: #9ace40;
+  }
+  .navbar-toggle {
+      border: none;
+      border-radius: 0;
+  }
+  .navbar-default a.navbar-brand {
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 3px;
+    display: block;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+      background-color: #9ace40;
+  }
+  .navbar-toggle {
+      position: relative;
+      float: right;
+      padding: 9px 10px;
+      margin-top: 15px;
+      margin-right: 15px;
+      margin-bottom: 8px;
+      background-color: transparent;
+      background-image: none;
+      border: none;
+      border-radius: 0;
+  }
+  section#mainBanner h1 {
+      font-family: 'proxima_novalight';
+      font-size: 26px;
+  }
+  div#taglineDiv {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px 2px rgba(24, 24, 24, 1);
+      padding: 0px 20px;
+      padding-bottom: 80px;
+  }
+  #get-started h2 {
+      font-family: 'proxima_novalight';
+      font-size: 25px;
+      text-align: center !important;
+  }
+  .app-make-1 .cust-img, .app-make-2 .cust-img, .app-make-3 .cust-img, .app-make-4 .cust-img {
+      margin: 70px auto;
+  }
+  section .section-col-wrapper {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  #swift-section .section-col-wrapper {
+      height: auto;
+  }
+  #swift-section p {
+      line-height: 26px;
+      font-size: 16px;
+  }
+  .section-col-wrapper {
+    margin-bottom: 20px;
+  }
+  #startups p {
+      font-size: 16px;
+      line-height: 25px;
+  }
+  section#startups h3 {
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+  }
+  #clients .section-row-wrapper {
+      max-width: 100%;
+      padding: 20px;
+  }
+  #clients h2 {
+      font-family: 'proxima_novalight';
+      font-size: 30px;
+      color: #55524f;
+      font-weight: bold;
+  }
+  #clients .after-title {
+      font-size: 18px;
+  }
+  .client-7, .client-8 {
+       width: auto;
+      margin: 18px auto;
+  }
+  #clients .section-row-wrapper .col-xs-6,
+  #clients .section-row-wrapper .col-xs-12 {
+    margin-bottom: 20px;
+  }
+  #work > .container > .row > .col-xs-12 {
+    margin-bottom: 20px;
+  }
+}

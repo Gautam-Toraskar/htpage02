@@ -680,12 +680,12 @@ a.pagi-image {
   /* .app-make-1 .cust-img {
     margin: 55px 63px 46px 60px;
   } */
-  .app-make-1 .cust-img,
+  /* .app-make-1 .cust-img,
   .app-make-2 .cust-img,
   .app-make-3 .cust-img
   .app-make-4 .cust-img {
     margin: auto;
-  }
+  } */
 }
 
 @media only screen and (max-width: 768px) {
