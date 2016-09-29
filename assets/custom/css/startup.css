@@ -671,6 +671,83 @@ a.pagi-image {
 }
 
 
+.testimonial-section-content {
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    border-top: 2px solid #F8F8F9;
+    padding: 14px 0px 4px 0px;
+}
+.testi-ul {
+    float: left;
+    width: 100%;
+}
+.testi-ul li {
+    float: left;
+    list-style: none;
+    padding-left: 4%;
+}
+.testi-ul li a {
+    display: inline-block;
+}
+.cnn {
+    background: url('../img/cnn-grey.png') no-repeat;
+    width: 165px;
+    height: 120px;
+    margin-top: 11%;
+}
+.cnn:hover {
+    background: url('../img/cnn-color.png') no-repeat;
+    /* width: 165px;
+    height: 120px;
+    margin-top: 11%; */
+}
+.tc {
+    background: url('../img/tc-grey.png') no-repeat;
+    width: 182px;
+    height: 103px;
+    margin-top: 19%;
+}
+.tc:hover {
+    background: url('../img/tc-color.png') no-repeat;
+    /* width: 182px;
+    height: 103px;
+    margin-top: 19%; */
+}
+.as {
+    background: url('../img/appstore-grey.png') no-repeat;
+    width: 103px;
+    height: 130px;
+    margin-top: 19%;
+}
+.as:hover {
+    background: url('../img/appstore-color.png') no-repeat;
+    /* width: 103px;
+    height: 130px;
+    margin-top: 19%; */
+}
+.ph {
+    background: url('../img/ph-grey.png') no-repeat;
+    width: 165px;
+    height: 165px;
+}
+.ph:hover {
+    background: url('../img/ph-color.png') no-repeat;
+    /* width: 165px;
+    height: 165px; */
+}
+.lp {
+    background: url('../img/lp-grey.png') no-repeat;
+    width: 165px;
+    height: 115px;
+    margin-top: 18%;
+}
+.lp:hover {
+    background: url('../img/lp-color.png') no-repeat;
+    /* width: 165px;
+    height: 115px;
+    margin-top: 18%; */
+}
 @media only screen and (max-width: 992px) {
 
   .footer-section1-left {

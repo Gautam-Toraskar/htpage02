@@ -149,6 +149,27 @@ div.lower-footer p, div.lower-footer h5 {
   }
 }
 @media screen and (max-width: 768px) {
+  .testimonial-section-content .testi-ul li {
+      float: none;
+      width: 100%;
+      padding: 0;
+      margin-bottom: 10px;
+  }
+  .testimonial-section-content ul li a {
+/*       font-size: 18px;
+font-weight: 900;
+font-family: 'proxima_novalight';
+letter-spacing: 1px;
+padding-left: 2.5%; */
+      display: block;
+      margin: auto;
+      margin-top: 0px;
+  }
+  .testimonial-section-content ul li a:hover {
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+  }
   div.social-div span {
       margin-right: 13px;
   }
